@@ -1,4 +1,4 @@
-function DotMatrix() {
+export function DotMatrix() {
   return (
     <div className="grid h-full w-full grid-cols-4 gap-6">
       {[...Array(16)].map((_, index) => (
@@ -7,5 +7,3 @@ function DotMatrix() {
     </div>
   );
 }
-
-export default DotMatrix;

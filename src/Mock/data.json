@@ -1,0 +1,55 @@
+{
+    "header": {
+        "logo": "/image/logo.webp",
+        "router": [
+            {
+                "name": "home",
+                "link": "/"
+            },
+            {
+                "name": "shop",
+                "link": "/"
+            },
+            {
+                "name": "features",
+                "link": "/"
+            },
+            {
+                "name": "contact",
+                "link": "/"
+            }
+        ]
+    },
+    "banner": {
+        "title": "Discover and Find Your Own Fashion!",
+        "subtitle": "  Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
+        "image_path": "/image/banner.webp"
+    },
+    "best_selling": {
+        "title":"Best selling",
+        "subtitle":"Get in on the trend with our curated selection of best-selling styles.",
+        "products": [
+            {
+                "backgroud_color": "#93B9A2",
+                "image_path": "/image/best-selling/product1.webp",
+                "product_name":"Regular Fit Long Sleeve Top",
+                "price":38.99,
+                "rate":5.0
+            },
+             {
+                "backgroud_color": "#A9D4BA",
+                "image_path": "/image/best-selling/product2.webp",
+                "product_name":"Black Crop Tailored Jacket",
+                "price":62.99,
+                "rate":4.9
+            },
+             {
+                "backgroud_color": "#DDECE2",
+                "image_path": "/image/best-selling/product3.webp",
+                "product_name":"Textured Sunset Shirt",
+                "price":49.99,
+                "rate":5.0
+            }
+        ]
+    }
+}

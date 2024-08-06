@@ -1,3 +1,4 @@
 export * from "./header";
 export * from "./banner";
-export * from "./dot-matrix";
+export * from "../common/dot-matrix";
+export * from "./best-selling";

@@ -1,5 +1,5 @@
 import { cva, type VariantProps } from "class-variance-authority";
-import React from "react";
+import type React from "react";
 import { cn } from "@/lib/utils";
 
 export interface ButtonProps
@@ -27,7 +27,7 @@ const buttonVariants = cva(
 );
 
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 } & React.ButtonHTMLAttributes<HTMLButtonElement> &
   ButtonProps;
 
