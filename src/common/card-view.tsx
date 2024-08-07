@@ -60,7 +60,7 @@ export function CardView({
       <img
         src={productData.image_path}
         alt={productData.product_name ?? productData.title}
-        className="aspect-[318/378] w-full object-cover"
+        className="aspect-[430/566] object-cover"
         style={{ backgroundColor: productData.background_color }}
         loading="eager"
         fetchPriority={isPriority ? "high" : "auto"}
