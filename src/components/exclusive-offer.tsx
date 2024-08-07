@@ -54,7 +54,7 @@ export function ExclusiveOffer({ data }: Readonly<Props>) {
             <div className="item flex gap-8">
               {timeView(data.end_time.day, "Days")}
               {timeView(data.end_time.hours, "Hours")}
-              {timeView(data.end_time.mins, "Mins")}
+              {timeView(data.end_time.mins, "Min")}
             </div>
 
             <Button variant="primary" size="lg" disabled>
