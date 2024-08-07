@@ -14,8 +14,8 @@ export function Marketing({ data }: Readonly<Props>) {
       <Title
         title={data.title}
         subtitle={data.subtitle}
-        titleClassName=" text-[50px] leading-[65.94px] "
-        subtitleClassName=" text-[22px] leading-[33px]"
+        titleClassName=" xl:text-[50px] leading-[65.94px] "
+        subtitleClassName=" xl:text-[22px] leading-[33px]"
       />
       <div className="mb-8 grid grid-cols-3 gap-8">
         {data.products.map((item) => (
