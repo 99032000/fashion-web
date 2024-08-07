@@ -39,7 +39,10 @@ export function Banner({ data }: Readonly<Props>) {
             alt="bag icon"
             decoding="async"
             className="max-h-fit"
+            fetchPriority="high"
+            loading="eager"
           />
+
           <div className="absolute right-2 top-[20%] h-[119px] w-[110px]">
             <DotMatrix />
           </div>

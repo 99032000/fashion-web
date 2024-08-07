@@ -21,6 +21,8 @@ export function Header({ data }: Readonly<Props>) {
             src={data.logo}
             alt="logo"
             className="h-[38px] w-[94px]"
+            fetchPriority="high"
+            loading="eager"
             decoding="async"
           />
           <div className="flex gap-8 pl-14 text-[22px] uppercase text-primary">
@@ -35,6 +37,8 @@ export function Header({ data }: Readonly<Props>) {
               src="/image/bag.webp"
               alt="bag icon"
               className="h-[32px] w-[32px]"
+              fetchPriority="high"
+              loading="eager"
               decoding="async"
             />
             <Button variant="outline" disabled>

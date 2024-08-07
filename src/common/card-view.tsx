@@ -4,6 +4,7 @@ import { ProductType } from "@/lib/type";
 type Props = {
   productData: ProductType;
   isProduct?: boolean;
+  isPriority?: boolean;
 };
 const productInfo = (productData: ProductType) => (
   <div className="w-full text-center text-base">
@@ -49,7 +50,11 @@ const displayInfo = (productData: ProductType) => (
     </h2>
   </>
 );
-export function CardView({ productData, isProduct = false }: Readonly<Props>) {
+export function CardView({
+  productData,
+  isProduct = false,
+  isPriority = false,
+}: Readonly<Props>) {
   return (
     <div className="flex h-full w-full flex-col items-center overflow-hidden">
       <img
@@ -57,6 +62,9 @@ export function CardView({ productData, isProduct = false }: Readonly<Props>) {
         alt={productData.product_name ?? productData.title}
         className="aspect-[318/378] w-full object-cover"
         style={{ backgroundColor: productData.background_color }}
+        loading="eager"
+        fetchPriority={isPriority ? "high" : "auto"}
+        decoding="async"
       />
 
       {isProduct ? productInfo(productData) : displayInfo(productData)}

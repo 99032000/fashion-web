@@ -15,7 +15,7 @@ export function BestSelling({ data }: Readonly<Props>) {
       <Title title={data.title} subtitle={data.subtitle} />
       <div className="mb-8 grid grid-cols-3 gap-8">
         {data.products.map((item) => (
-          <CardView key={item.id} productData={item} isProduct />
+          <CardView key={item.id} productData={item} isProduct isPriority />
         ))}
       </div>
       <div className="flex justify-center">
