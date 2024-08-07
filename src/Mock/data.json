@@ -124,5 +124,32 @@
                 "rate":5.0
             }
         ]
+    },
+    "marketing": {
+        "title":"Designer Clothes For You",
+        "subtitle":"Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
+        "products": [
+            {
+                "id":1,
+                "background_color": "#D3E2D7",
+                "image_path": "/image/marketing/product1.webp",
+               "title":"Accessories",
+               "subtitle":"Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
+            },
+             {
+                 "id":2,
+                "background_color": "#A9D4BA",
+                "image_path": "/image/marketing/product2.webp",
+                 "title":"Dresses",
+               "subtitle":"Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
+            },
+             {
+                 "id":3,
+                "background_color": "#DDECE2",
+                "image_path": "/image/marketing/product3.webp",
+               "title":"Outerwear",
+               "subtitle":"Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
+            }
+        ]
     }
 }

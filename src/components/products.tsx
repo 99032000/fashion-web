@@ -1,17 +1,17 @@
 import { CardView, Title } from "@/common";
-import { productType } from "@/lib/type";
+import { ProductType } from "@/lib/type";
 
 type Props = {
   data: {
     title: string;
     subtitle: string;
-    products: productType[];
+    products: ProductType[];
   };
 };
 
 export function Products({ data }: Readonly<Props>) {
   return (
-    <div className="w mx-auto max-w-content px-16 pb-24 pt-14">
+    <div className="w mx-auto max-w-content px-16 pt-14">
       <Title title={data.title} subtitle={data.subtitle} />
       <div className="mb-8 grid grid-cols-4 gap-x-4 gap-y-16">
         {data.products.map((item) => (
