@@ -28,6 +28,7 @@ export function Banner({ data }: Readonly<Props>) {
             variant="primary"
             size="lg"
             className="shadow-[0_33px_59px_0px_rgba(0,0,0,0.3)]"
+            disabled
           >
             EXPLORE NOW
           </Button>

@@ -30,24 +30,97 @@
         "subtitle":"Get in on the trend with our curated selection of best-selling styles.",
         "products": [
             {
-                "backgroud_color": "#93B9A2",
+                "id":1,
+                "background_color": "#93B9A2",
                 "image_path": "/image/best-selling/product1.webp",
                 "product_name":"Regular Fit Long Sleeve Top",
                 "price":38.99,
                 "rate":5.0
             },
              {
-                "backgroud_color": "#A9D4BA",
+                 "id":2,
+                "background_color": "#A9D4BA",
                 "image_path": "/image/best-selling/product2.webp",
                 "product_name":"Black Crop Tailored Jacket",
                 "price":62.99,
                 "rate":4.9
             },
              {
-                "backgroud_color": "#DDECE2",
+                 "id":3,
+                "background_color": "#DDECE2",
                 "image_path": "/image/best-selling/product3.webp",
                 "product_name":"Textured Sunset Shirt",
                 "price":49.99,
+                "rate":5.0
+            }
+        ]
+    },
+    "our_product": {
+        "title":"Our Products",
+        "subtitle":"Get in on the trend with our curated selection of best-selling styles.",
+        "products": [
+            {
+                "id":1,
+                "background_color": "",
+                "image_path": "/image/our-product/product1.webp",
+                "product_name":"Spread Collar Shirt",
+                "price":48.99,
+                "rate":5.0
+            },
+             {
+                 "id":2,
+                "background_color": "#EAEBF0",
+                "image_path": "/image/our-product/product2.webp",
+                "product_name":"White Solid Formal Shirt",
+                "price":39.99,
+                "rate":4.9
+            },
+             {
+                 "id":3,
+                "background_color": "",
+                "image_path": "/image/our-product/product3.webp",
+                "product_name":"Shine On Me Blouse",
+                "price":42.99,
+                "rate":4.8
+            },
+             {
+                 "id":4,
+                "background_color": "",
+                "image_path": "/image/our-product/product4.webp",
+                "product_name":"Gray Solid Padded Jacket",
+                "price":32.99,
+                "rate":4.7
+            },
+             {
+                 "id":5,
+                "background_color": "",
+                "image_path": "/image/our-product/product5.webp",
+                "product_name":"Printed Loose T-shirt",
+                "price":39.99,
+                "rate":5.0
+            },
+             {
+                 "id":6,
+                "background_color": "",
+                "image_path": "/image/our-product/product6.webp",
+                "product_name":"Summer Wind Crop Shirt",
+                "price":46.00,
+                "rate":4.9
+            },
+             {
+                 "id":7,
+                "background_color": "",
+                "image_path": "/image/our-product/product7.webp",
+                "product_name":"Tailored Jacket",
+                "price":42.99,
+                "rate":4.8
+            },
+             {
+                 "id":8,
+                "background_color": "#DDECE2",
+                "image_path": "/image/our-product/product8.webp",
+                "product_name":"Solid Round Neck T-shirt",
+                "price":36.00,
                 "rate":5.0
             }
         ]

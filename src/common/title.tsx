@@ -6,7 +6,7 @@ type Props = {
 };
 export function Title({ title, subtitle }: Readonly<Props>) {
   return (
-    <div className="mx-auto mb-8 text-center text-primary">
+    <div className="mx-auto mb-16 text-center text-primary">
       <FontWrapper fontName="robotoSlab">
         <h1 className="mb-4 text-[64px] leading-[84.41px]">{title}</h1>
       </FontWrapper>

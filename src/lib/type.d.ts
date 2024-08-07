@@ -1,4 +1,5 @@
 export type productType = {
+  id: number;
   background_color?: string;
   image_path: string;
   product_name?: string;

@@ -14,9 +14,9 @@ const buttonVariants = cva(
         outline: "transparent border-2 border-primary text-primary",
       },
       size: {
-        default: "h-[52px] px-8 py-2",
-        md: "h-[65px] px-4 py-3",
-        lg: "h-[74px] px-10 py-4",
+        default: "h-[52px] px-10 py-2",
+        md: "h-[65px] px-16 py-2",
+        lg: "h-[74px] px-16 py-4",
       },
     },
     defaultVariants: {

@@ -1,5 +1,5 @@
 export * from "./button";
 export * from "./title";
 export * from "./dot-matrix";
-export * from "./product-view";
+export * from "./card-view";
 export * from "./fontWrapper";
