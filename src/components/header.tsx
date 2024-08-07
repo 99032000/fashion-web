@@ -1,5 +1,4 @@
-import { Button } from "@/common";
-import { FontWrapper } from "@/common";
+import { Button, FontWrapper } from "@/common";
 import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 

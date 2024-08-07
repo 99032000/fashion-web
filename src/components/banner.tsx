@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Button, DotMatrix } from "@/common";
-import { FontWrapper } from "@/common";
+import { Button, DotMatrix, FontWrapper } from "@/common";
 
 type Props = {
   data: {
