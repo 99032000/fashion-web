@@ -13,7 +13,7 @@ export function Banner({ data }: Readonly<Props>) {
   return (
     <div className="w-full bg-primary">
       <div className="mx-auto flex max-w-content justify-between px-16 pb-24 pt-14">
-        <div className="flex w-1/2 flex-col gap-8 pr-8 xl:pr-28">
+        <div className="flex w-1/2 flex-col gap-8 pr-8 xl:gap-12">
           <FontWrapper fontName="rufina">
             <h1 className="text-6xl leading-snug text-primary xl:text-[86px] xl:leading-[106.21px]">
               {data.title}
