@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { FontWrapper } from "./fontWrapper";
+import { FontWrapper } from "./font-wrapper";
 import * as React from "react";
 
 type Props = {
