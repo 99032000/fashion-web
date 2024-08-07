@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Button, DotMatrix } from "@/common";
-import { PoppinsFontWrapper, RufinaFontWrapper } from "@/font";
+import { FontWrapper } from "@/common";
 
 type Props = {
   data: {
@@ -14,16 +14,16 @@ export function Banner({ data }: Readonly<Props>) {
     <div className="w-full bg-primary">
       <div className="mx-auto flex max-w-content justify-between px-16 pb-24 pt-14">
         <div className="flex w-1/2 flex-col gap-8 pr-8 xl:pr-28">
-          <RufinaFontWrapper>
+          <FontWrapper fontName="rufina">
             <h1 className="text-6xl leading-snug text-primary xl:text-[86px] xl:leading-[106.21px]">
               {data.title}
             </h1>
-          </RufinaFontWrapper>
-          <PoppinsFontWrapper>
+          </FontWrapper>
+          <FontWrapper fontName="poppins">
             <h2 className="w-[80%] text-xl leading-relaxed text-secondary xl:text-[24px] xl:leading-[52.8px]">
               {data.subtitle}
             </h2>
-          </PoppinsFontWrapper>
+          </FontWrapper>
           <Button
             variant="primary"
             size="lg"

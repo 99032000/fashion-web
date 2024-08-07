@@ -1,5 +1,5 @@
 import { Button } from "@/common";
-import { PoppinsFontWrapper } from "@/font";
+import { FontWrapper } from "@/common";
 import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 
@@ -14,7 +14,7 @@ type Props = {
 };
 export function Header({ data }: Readonly<Props>) {
   return (
-    <PoppinsFontWrapper>
+    <FontWrapper fontName="poppins">
       <div className="w-full bg-primary">
         <div className="mx-auto flex max-w-content items-center justify-between px-16 py-14">
           <img
@@ -43,6 +43,6 @@ export function Header({ data }: Readonly<Props>) {
           </div>
         </div>
       </div>
-    </PoppinsFontWrapper>
+    </FontWrapper>
   );
 }
