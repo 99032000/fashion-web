@@ -6,5 +6,5 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatNumber(number: number) {
-  return number < 10 ? `0${number}` : `${number}`;
+  return number.toString().padStart(2, "0");
 }

@@ -6,7 +6,7 @@ import {
   Marketing,
   Products,
 } from "@/components";
-import MockData from "@/Mock/data.json";
+import MockData from "@/mock/data.json";
 
 export default function Home() {
   return (

@@ -22,12 +22,12 @@ const timeView = (num: number, text: string) => (
     <h3 className="text-[16px] leading-[24px]">{text}</h3>
   </div>
 );
-const rectDecoration = () => <></>;
+
 export function ExclusiveOffer({ data }: Readonly<Props>) {
   return (
     <div className="mx-auto mt-32 max-w-content bg-primary px-16 pt-4">
       <FontWrapper fontName="poppins">
-        <div className="flex max-h-[596px] justify-center gap-8 overflow-hidden">
+        <div className="flex max-h-[596px] justify-center gap-8">
           <div className="flex-1">
             <div className="relative mx-auto h-full w-fit">
               <img
@@ -37,7 +37,7 @@ export function ExclusiveOffer({ data }: Readonly<Props>) {
                 className="relative z-50 h-full"
               />
               <div className="absolute bottom-16 left-7 z-0 h-[131px] w-[190px] bg-[#DFFBEA80]"></div>
-              <div className="absolute bottom-8 left-0 h-[110px] w-[110px] overflow-hidden">
+              <div className="absolute -left-8 bottom-8 h-[110px] w-[110px] overflow-hidden">
                 <DotMatrix />
               </div>
             </div>
