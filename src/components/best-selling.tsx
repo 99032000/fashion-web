@@ -11,7 +11,7 @@ type Props = {
 };
 export function BestSelling({ data }: Readonly<Props>) {
   return (
-    <div className="w mx-auto max-w-content px-16 pt-14">
+    <div className="mx-auto max-w-content px-16 pt-14">
       <Title title={data.title} subtitle={data.subtitle} />
       <div className="mb-8 grid grid-cols-3 gap-8">
         {data.products.map((item) => (

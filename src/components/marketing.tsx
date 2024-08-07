@@ -10,7 +10,7 @@ type Props = {
 };
 export function Marketing({ data }: Readonly<Props>) {
   return (
-    <div className="w mx-auto max-w-content px-16 pb-24 pt-14">
+    <div className="mx-auto mt-32 max-w-content px-16 pb-24">
       <Title
         title={data.title}
         subtitle={data.subtitle}

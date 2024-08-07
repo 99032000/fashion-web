@@ -26,130 +26,140 @@
         "image_path": "/image/banner.webp"
     },
     "best_selling": {
-        "title":"Best selling",
-        "subtitle":"Get in on the trend with our curated selection of best-selling styles.",
+        "title": "Best selling",
+        "subtitle": "Get in on the trend with our curated selection of best-selling styles.",
         "products": [
             {
-                "id":1,
+                "id": 1,
                 "background_color": "#93B9A2",
                 "image_path": "/image/best-selling/product1.webp",
-                "product_name":"Regular Fit Long Sleeve Top",
-                "price":38.99,
-                "rate":5.0
+                "product_name": "Regular Fit Long Sleeve Top",
+                "price": 38.99,
+                "rate": 5
             },
-             {
-                 "id":2,
+            {
+                "id": 2,
                 "background_color": "#A9D4BA",
                 "image_path": "/image/best-selling/product2.webp",
-                "product_name":"Black Crop Tailored Jacket",
-                "price":62.99,
-                "rate":4.9
+                "product_name": "Black Crop Tailored Jacket",
+                "price": 62.99,
+                "rate": 4.9
             },
-             {
-                 "id":3,
+            {
+                "id": 3,
                 "background_color": "#DDECE2",
                 "image_path": "/image/best-selling/product3.webp",
-                "product_name":"Textured Sunset Shirt",
-                "price":49.99,
-                "rate":5.0
+                "product_name": "Textured Sunset Shirt",
+                "price": 49.99,
+                "rate": 5
             }
         ]
     },
     "our_product": {
-        "title":"Our Products",
-        "subtitle":"Get in on the trend with our curated selection of best-selling styles.",
+        "title": "Our Products",
+        "subtitle": "Get in on the trend with our curated selection of best-selling styles.",
         "products": [
             {
-                "id":1,
+                "id": 1,
                 "background_color": "",
                 "image_path": "/image/our-product/product1.webp",
-                "product_name":"Spread Collar Shirt",
-                "price":48.99,
-                "rate":5.0
+                "product_name": "Spread Collar Shirt",
+                "price": 48.99,
+                "rate": 5
             },
-             {
-                 "id":2,
+            {
+                "id": 2,
                 "background_color": "#EAEBF0",
                 "image_path": "/image/our-product/product2.webp",
-                "product_name":"White Solid Formal Shirt",
-                "price":39.99,
-                "rate":4.9
+                "product_name": "White Solid Formal Shirt",
+                "price": 39.99,
+                "rate": 4.9
             },
-             {
-                 "id":3,
+            {
+                "id": 3,
                 "background_color": "",
                 "image_path": "/image/our-product/product3.webp",
-                "product_name":"Shine On Me Blouse",
-                "price":42.99,
-                "rate":4.8
+                "product_name": "Shine On Me Blouse",
+                "price": 42.99,
+                "rate": 4.8
             },
-             {
-                 "id":4,
+            {
+                "id": 4,
                 "background_color": "",
                 "image_path": "/image/our-product/product4.webp",
-                "product_name":"Gray Solid Padded Jacket",
-                "price":32.99,
-                "rate":4.7
+                "product_name": "Gray Solid Padded Jacket",
+                "price": 32.99,
+                "rate": 4.7
             },
-             {
-                 "id":5,
+            {
+                "id": 5,
                 "background_color": "",
                 "image_path": "/image/our-product/product5.webp",
-                "product_name":"Printed Loose T-shirt",
-                "price":39.99,
-                "rate":5.0
+                "product_name": "Printed Loose T-shirt",
+                "price": 39.99,
+                "rate": 5
             },
-             {
-                 "id":6,
+            {
+                "id": 6,
                 "background_color": "",
                 "image_path": "/image/our-product/product6.webp",
-                "product_name":"Summer Wind Crop Shirt",
-                "price":46.00,
-                "rate":4.9
+                "product_name": "Summer Wind Crop Shirt",
+                "price": 46,
+                "rate": 4.9
             },
-             {
-                 "id":7,
+            {
+                "id": 7,
                 "background_color": "",
                 "image_path": "/image/our-product/product7.webp",
-                "product_name":"Tailored Jacket",
-                "price":42.99,
-                "rate":4.8
+                "product_name": "Tailored Jacket",
+                "price": 42.99,
+                "rate": 4.8
             },
-             {
-                 "id":8,
+            {
+                "id": 8,
                 "background_color": "#DDECE2",
                 "image_path": "/image/our-product/product8.webp",
-                "product_name":"Solid Round Neck T-shirt",
-                "price":36.00,
-                "rate":5.0
+                "product_name": "Solid Round Neck T-shirt",
+                "price": 36,
+                "rate": 5
             }
         ]
     },
     "marketing": {
-        "title":"Designer Clothes For You",
-        "subtitle":"Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
+        "title": "Designer Clothes For You",
+        "subtitle": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
         "products": [
             {
-                "id":1,
+                "id": 1,
                 "background_color": "#D3E2D7",
                 "image_path": "/image/marketing/product1.webp",
-               "title":"Accessories",
-               "subtitle":"Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
+                "title": "Accessories",
+                "subtitle": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
             },
-             {
-                 "id":2,
+            {
+                "id": 2,
                 "background_color": "#A9D4BA",
                 "image_path": "/image/marketing/product2.webp",
-                 "title":"Dresses",
-               "subtitle":"Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
+                "title": "Dresses",
+                "subtitle": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
             },
-             {
-                 "id":3,
+            {
+                "id": 3,
                 "background_color": "#DDECE2",
                 "image_path": "/image/marketing/product3.webp",
-               "title":"Outerwear",
-               "subtitle":"Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
+                "title": "Outerwear",
+                "subtitle": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
             }
         ]
+    },
+    "exclusive_offer": {
+        "title": "Exclusive offer",
+        "subtitle": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
+       "image_path": "/image/offer/offerImage.webp",
+        "end_time": {
+            "day": 6,
+            "hours": 18,
+            "mins": 48
+        }
     }
 }

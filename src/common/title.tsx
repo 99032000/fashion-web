@@ -18,13 +18,21 @@ export function Title({
     <div className="mx-auto mb-16 text-center text-primary">
       <FontWrapper fontName="robotoSlab">
         <h1
-          className={cn("mb-4 text-[64px] leading-[84.41px]", titleClassName)}
+          className={cn(
+            "mb-4 text-5xl font-medium leading-[84.41px] xl:text-[64px]",
+            titleClassName,
+          )}
         >
           {title}
         </h1>
       </FontWrapper>
       <FontWrapper fontName="poppins">
-        <h2 className={cn("text-[22px] leading-[33px]", subtitleClassName)}>
+        <h2
+          className={cn(
+            "text-xl font-medium leading-[33px] xl:text-[22px]",
+            subtitleClassName,
+          )}
+        >
           {subtitle}
         </h2>
       </FontWrapper>
